@@ -1,0 +1,118 @@
+.ethanLee {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 286px;
+  -webkit-text-stroke: 1px #000;
+}
+.email {
+  flex: 1;
+  letter-spacing: 0.05em;
+}
+.button1,
+.email {
+  position: relative;
+}
+.button1,
+.button1:hover {
+  letter-spacing: 0.05em;
+}
+.button {
+  width: 93px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  mix-blend-mode: normal;
+  cursor: pointer;
+}
+.button3 {
+  position: relative;
+  letter-spacing: 0.05em;
+}
+.button1:hover,
+.button3:hover {
+  color: var(--color-white);
+}
+.button2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  mix-blend-mode: normal;
+  cursor: pointer;
+}
+.emailParent,
+.hyperlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.hyperlinks {
+  flex: 1;
+  align-items: center;
+  color: var(--color-gray);
+}
+.emailParent {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  font-size: var(--font-size-2xl);
+}
+.ethanLeeParent,
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ethanLeeParent {
+  width: 645px;
+  justify-content: flex-start;
+}
+.header {
+  align-self: stretch;
+  background: linear-gradient(
+    180deg,
+    #232323 94.79%,
+    rgba(58, 58, 58, 0.19) 99.99%,
+    rgba(58, 58, 58, 0)
+  );
+  height: 154px;
+  padding: 0 var(--padding-lgi);
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-44xl);
+  color: var(--color-white);
+  font-family: var(--font-carme);
+}
+@media screen and (max-width: 1200px) {
+  .button {
+    width: auto;
+    align-self: unset;
+  }
+}
+@media screen and (max-width: 420px) {
+  .header {
+    height: 154px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .email,
+  .hyperlinks {
+    flex: unset;
+    align-self: stretch;
+  }
+  .emailParent {
+    flex-direction: column;
+  }
+  .header {
+    height: 208px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}

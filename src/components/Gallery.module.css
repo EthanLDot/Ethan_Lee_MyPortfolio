@@ -1,0 +1,99 @@
+.experiences {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  font-family: inherit;
+}
+.roottech,
+.ucSanDiego {
+  position: absolute;
+  width: 31.92%;
+  top: 239px;
+  right: 34.13%;
+  left: 33.95%;
+  height: 217px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-40xl) 32.82740783691406px var(--padding-40xl)
+    33.17259216308594px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: url(/public/roottech@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.ucSanDiego {
+  right: 68.08%;
+  left: 0;
+  background-image: url(/public/uc-san-diego@3x.png);
+}
+.codingMindAcademy {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.anheuserBusch,
+.codingMindsAcademy {
+  position: absolute;
+  width: 31.92%;
+  top: -1px;
+  right: 0.19%;
+  left: 67.89%;
+  height: 217px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-40xl) 32.82740783691406px var(--padding-40xl)
+    33.17259216308594px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: url(/public/coding-minds-academy@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.anheuserBusch {
+  right: 34.13%;
+  left: 33.95%;
+  background-image: url(/public/anheuser-busch@3x.png);
+}
+.roottechParent {
+  align-self: stretch;
+  position: relative;
+  height: 451px;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-im-fell-french-canon);
+}
+.gallery {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0 29.48583984375px 0 29.489999771118164px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-carme);
+}
+@media screen and (max-width: 420px) {
+  .experiences {
+    font-size: var(--font-size-9xl);
+  }
+  .gallery {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 550px) {
+  .codingMindAcademy {
+    font-size: var(--font-size-3xl);
+  }
+}
