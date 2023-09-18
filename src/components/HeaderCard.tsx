@@ -3,13 +3,13 @@ import styles from "./HeaderCard.module.css";
 
 type HeaderCardType = {
   /** Action props */
-  onButtonContainerClick?: () => void;
-  onButtonContainer1Click?: () => void;
+  onLinkedInContainerClick?: () => void;
+  onGithubContainerClick?: () => void;
 };
 
 const HeaderCard: FunctionComponent<HeaderCardType> = ({
-  onButtonContainerClick,
-  onButtonContainer1Click,
+  onLinkedInContainerClick,
+  onGithubContainerClick,
 }) => {
   return (
     <header className={styles.header}>
@@ -19,11 +19,11 @@ const HeaderCard: FunctionComponent<HeaderCardType> = ({
           <div className={styles.email}>ethanlee2337@gmail.com</div>
           <div className={styles.email}>California, USA</div>
           <div className={styles.hyperlinks}>
-            <div className={styles.button} onClick={onButtonContainerClick}>
-              <div className={styles.button1}>LinkedIn</div>
+            <div className={styles.button} onClick={onLinkedInContainerClick}>
+              <div className={styles.linkButton}>LinkedIn</div>
             </div>
-            <div className={styles.button2} onClick={onButtonContainer1Click}>
-              <div className={styles.button3}>GitHub</div>
+            <div className={styles.button2} onClick={onGithubContainerClick}>
+              <div className={styles.linkButton}>GitHub</div>
             </div>
           </div>
         </div>

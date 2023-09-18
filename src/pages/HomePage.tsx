@@ -5,11 +5,11 @@ import styles from "./HomePage.module.css";
 const HomePage: FunctionComponent = () => {
   const navigate = useNavigate();
 
-  const onButtonContainerClick = useCallback(() => {
+  const onLinkedInContainerClick = useCallback(() => {
     window.open("https://www.linkedin.com/in/ethan-lee-2847981b0/");
   }, []);
 
-  const onButtonContainer1Click = useCallback(() => {
+  const onGithubContainerClick = useCallback(() => {
     window.open("https://github.com/EthanLDot");
   }, []);
 
@@ -25,19 +25,19 @@ const HomePage: FunctionComponent = () => {
           onClick={onExpandDownDoubleClick}
         >
           <img
-            className={styles.expandDownDoubleChild}
+            className={styles.expandDownTop}
             alt=""
             src="/vector-9.svg"
           />
           <img
-            className={styles.expandDownDoubleItem}
+            className={styles.expandDownBottom}
             alt=""
             src="/vector-9.svg"
           />
         </button>
       </footer>
-      <main className={styles.iMakeTechnologyCoolForEveWrapper}>
-        <span className={styles.iMakeTechnology}>
+      <main className={styles.content}>
+        <span className={styles.title}>
           I make technology cool for everyone.
         </span>
       </main>

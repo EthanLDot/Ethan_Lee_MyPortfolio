@@ -12,13 +12,9 @@
   flex: 1;
   letter-spacing: 0.05em;
 }
-.button1,
+.backButton, .linkButton,
 .email {
   position: relative;
-}
-.button1,
-.button1:hover {
-  letter-spacing: 0.05em;
 }
 .button {
   width: 93px;
@@ -29,12 +25,18 @@
   mix-blend-mode: normal;
   cursor: pointer;
 }
-.button3 {
+.linkButton {
   position: relative;
   letter-spacing: 0.05em;
 }
-.button1:hover,
-.button3:hover {
+.backButton,
+.linkButton
+{
+  transition: color 0.3s;
+}
+.backButton:hover,
+.linkButton:hover
+{
   color: var(--color-white);
 }
 .button2 {
@@ -81,7 +83,7 @@
     rgba(58, 58, 58, 0.19) 99.99%,
     rgba(58, 58, 58, 0)
   );
-  height: 154px;
+  height: 30vh;
   padding: 0 var(--padding-lgi);
   box-sizing: border-box;
   justify-content: center;
@@ -96,11 +98,6 @@
     align-self: unset;
   }
 }
-@media screen and (max-width: 420px) {
-  .header {
-    height: 154px;
-  }
-}
 @media screen and (max-width: 690px) {
   .email,
   .hyperlinks {
@@ -109,10 +106,15 @@
   }
   .emailParent {
     flex-direction: column;
+    font-size: var(--font-size-1xl);
+    gap: var(--gap-smi-2);
   }
   .header {
-    height: 208px;
+    height: 25vh;
     align-items: flex-start;
     justify-content: flex-start;
+  }
+  .ethanLee {
+    font-size: 10vh;
   }
 }

@@ -10,6 +10,7 @@ body {
   --font-im-fell-french-canon: "IM FELL French Canon";
 
   /* font sizes */
+  --font-size-1xl: 12px;
   --font-size-2xl: 21px;
   --font-size-44xl: 63px;
   --font-size-29xl: 48px;
@@ -26,6 +27,7 @@ body {
 
   /* Gaps */
   --gap-smi: 13px;
+  --gap-smi-2: 6px
 
   /* Paddings */
   --padding-lgi: 19px;
