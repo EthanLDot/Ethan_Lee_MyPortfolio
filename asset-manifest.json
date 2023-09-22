@@ -1,29 +1,16 @@
 {
   "files": {
-    "main.css": "/Ethan_Lee_MyPortfolio/static/css/main.755276d0.css",
-    "main.js": "/Ethan_Lee_MyPortfolio/static/js/main.13d24d1f.js",
+    "main.css": "/Ethan_Lee_MyPortfolio/static/css/main.f383970a.css",
+    "main.js": "/Ethan_Lee_MyPortfolio/static/js/main.c4ba079b.js",
     "static/js/787.128fc6e9.chunk.js": "/Ethan_Lee_MyPortfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/yonsei-university@3x.png": "/Ethan_Lee_MyPortfolio/static/media/yonsei-university@3x.1cfe8d230ddb86a985ed.png",
-    "static/media/roottech@3x.png": "/Ethan_Lee_MyPortfolio/static/media/roottech@3x.de25e3df3e1a9fea8591.png",
-    "static/media/travel-today@3x.png": "/Ethan_Lee_MyPortfolio/static/media/travel-today@3x.47a93e042969cf7c9b6f.png",
-    "static/media/uc-san-diego1@3x.png": "/Ethan_Lee_MyPortfolio/static/media/uc-san-diego1@3x.18289224fb284b0a3987.png",
     "static/media/home-page@3x.png": "/Ethan_Lee_MyPortfolio/static/media/home-page@3x.89aa5253237b528c9502.png",
-    "static/media/uc-san-diego@3x.png": "/Ethan_Lee_MyPortfolio/static/media/uc-san-diego@3x.2f3267e663917b6ed605.png",
-    "static/media/personal-portfolio@3x.png": "/Ethan_Lee_MyPortfolio/static/media/personal-portfolio@3x.fa7c4bd96cdd3c5e6de0.png",
-    "static/media/coding-minds-academy@3x.png": "/Ethan_Lee_MyPortfolio/static/media/coding-minds-academy@3x.1dd325cdfbc568b1ff65.png",
-    "static/media/anheuser-busch@3x.png": "/Ethan_Lee_MyPortfolio/static/media/anheuser-busch@3x.b5ef4249322e4b14fa28.png",
-    "static/media/taxi-time-prediction@3x.png": "/Ethan_Lee_MyPortfolio/static/media/taxi-time-prediction@3x.57aaf34fd945d1f35ad2.png",
-    "static/media/ucsd-zoo@3x.png": "/Ethan_Lee_MyPortfolio/static/media/ucsd-zoo@3x.eaba308172cc089fe47f.png",
-    "static/media/thomson-reuters@3x.png": "/Ethan_Lee_MyPortfolio/static/media/thomson-reuters@3x.37273025c4450a9902a2.png",
-    "static/media/covid-infections-study@3x.png": "/Ethan_Lee_MyPortfolio/static/media/covid-infections-study@3x.0af4146a986248941fa3.png",
-    "static/media/how-private-ru@3x.png": "/Ethan_Lee_MyPortfolio/static/media/how-private-ru@3x.0c6ac97aac4155f47faa.png",
     "index.html": "/Ethan_Lee_MyPortfolio/index.html",
-    "main.755276d0.css.map": "/Ethan_Lee_MyPortfolio/static/css/main.755276d0.css.map",
-    "main.13d24d1f.js.map": "/Ethan_Lee_MyPortfolio/static/js/main.13d24d1f.js.map",
+    "main.f383970a.css.map": "/Ethan_Lee_MyPortfolio/static/css/main.f383970a.css.map",
+    "main.c4ba079b.js.map": "/Ethan_Lee_MyPortfolio/static/js/main.c4ba079b.js.map",
     "787.128fc6e9.chunk.js.map": "/Ethan_Lee_MyPortfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.755276d0.css",
-    "static/js/main.13d24d1f.js"
+    "static/css/main.f383970a.css",
+    "static/js/main.c4ba079b.js"
   ]
 }
